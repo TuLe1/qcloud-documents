@@ -6,9 +6,9 @@
 <table>
 <thead>
 <tr>
-<th>系统版本</th>
-<th>位数</th>
-<th>支持情况</th>
+<th width="45%">系统版本</th>
+<th width="20%">位数</th>
+<th width="25%">支持情况</th>
 </tr>
 </thead>
 <tbody><tr>
@@ -17,12 +17,17 @@
 <td>支持</td>
 </tr>
 <tr>
-<td>CentOS 8.0</td>
+<td>CentOS 7.8</td>
 <td>64</td>
 <td>支持</td>
 </tr>
 <tr>
-<td>CentOS 7.8</td>
+<td>CentOS 7.7</td>
+<td>64</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>CentOS 7.6</td>
 <td>64</td>
 <td>支持</td>
 </tr>
@@ -52,22 +57,7 @@
 <td>支持</td>
 </tr>
 <tr>
-<td>CentOS 6.9</td>
-<td>32</td>
-<td>不支持</td>
-</tr>
-<tr>
 <td>CentOS 6.8</td>
-<td>64</td>
-<td>支持</td>
-</tr>
-<tr>
-<td>CentOS 6.5</td>
-<td>64</td>
-<td>支持</td>
-</tr>
-<tr>
-<td>CoreOS 1745.5.0</td>
 <td>64</td>
 <td>支持</td>
 </tr>
@@ -77,51 +67,18 @@
 <td>支持</td>
 </tr>
 <tr>
-<td>Debian 8.2</td>
-<td>64</td>
-<td>支持</td>
-</tr>
-<tr>
-<td>Debian 8.2</td>
-<td>32</td>
-<td>不支持</td>
-</tr>
-<tr>
-<td>Debian 10.2</td>
-<td>64</td>
-<td>支持</td>
-</tr>
-<tr>
-<td>FreeBSD 11.1</td>
-<td>64</td>
-<td>不支持</td>
-</tr>
-<tr>
-<td>openSUSE 42.3</td>
-<td>64</td>
-<td>支持</td>
-</tr>
-<tr>
-<td>Ubuntu Server 18.04.1 LTS</td>
-<td>64</td>
-<td>支持</td>
-</tr>
-<tr>
 <td>Ubuntu Server 16.04.1 LTS</td>
 <td>64</td>
 <td>支持</td>
-</tr>
-<tr>
-<td>Ubuntu Server 16.04.1 LTS</td>
-<td>32</td>
-<td>不支持</td>
 </tr>
 <tr>
 <td>Ubuntu Server 14.04.1 LTS</td>
-<td>32</td>
-<td>不支持</td>
+<td>64</td>
+<td>支持</td>
 </tr>
 </tbody></table>
+
+SDK 基于 OpenSSL1.0 改造，在 OpenSSL1.1 以上版本运行会有兼容性问题，后续版本会兼容高版本的 OpenSSL。
 
 ### 接入指引
 
