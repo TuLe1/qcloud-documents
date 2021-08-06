@@ -171,12 +171,21 @@ exports.callback_handler = function(event, context, callback) {
 
 您可以在程序中使用如下语句来完成日志输出：
 
-* console.log()
-* console.error()
-* console.warn()
-* console.info()
+- console.log()
+- console._stdout.write()
+- process.stdout.write()
 
-输出内容您可以在函数日志中的 `log` 位置查看。
+
+例如，执行以下代码，可以在函数日志中查询输出内容。
+``` node.js
+'use strict';
+exports.main_handler = async (event, context) => {
+    console.log("Hello World")
+    console._stdout.write("Hello World")
+    process.stdout.write("Hello World")
+    return event
+};
+```
 
 ## 如何安装依赖
 
